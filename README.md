@@ -2,48 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The AI Takeover of Sports</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Datafication of Sports: AI and MLB's Statcast</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; background: #f4f4f4; color: #333; padding: 20px; }
-        h1 { color: #0e4c92; }
-        .container { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        img { max-width: 100%; height: auto; border-radius: 10px; margin: 10px 0; }
-        .quote { font-style: italic; color: #555; margin: 10px 0; }
-        .citations { font-size: 0.9em; color: #666; }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+        }
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        .section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .abstract {
+            font-style: italic;
+            color: #4a5568;
+        }
+        .image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #2d3748;
+            color: white;
+        }
     </style>
 </head>
 <body>
-<div class="container">
-    <h1>⚾ Data Over Instinct: How AI is Rewriting the Rules of Sports</h1>
-    <p><strong>Author:</strong> Cameron Milroy <br>
-    <strong>Course:</strong> History of Artificial Intelligence: Minds & Machines<br>
-    <strong>Date:</strong> May 9, 2025</p>
-
-    <h2>🎯 What’s the Research Problem?</h2>
-    <p>Artificial Intelligence and Machine Learning are radically transforming professional sports—from how players are evaluated to how games are played. But what does this mean for fairness, strategy, and the human spirit of competition? This proposal explores how systems like MLB’s <strong>Statcast</strong> are shifting decision-making from coaches and scouts to algorithms and sensors.</p>
-
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Statcast.png" alt="Statcast Example">
-    <div class="quote">“A player’s value is no longer judged by a coach’s eye—but by spin rate, launch angle, and exit velocity.”</div>
-
-    <h2>🔬 Sources & Methods</h2>
-    <ul>
-        <li><strong>Primary Sources:</strong> MLB’s Statcast documentation, Hawk-Eye system details, MIT Sloan Sports Analytics Conference talks</li>
-        <li><strong>Secondary Sources:</strong> Peer-reviewed articles from Chmait & Westerbeek, Ghosh et al., Udelf’s critique on athlete stress from over-datafication</li>
-    </ul>
-
-    <h2>💡 Why It Matters</h2>
-    <p>This is about more than just sports. It’s about how AI is redefining what counts as knowledge and value—on the field and off. If we let AI decide what “greatness” is, what human qualities are we leaving behind?</p>
-
-    <h2>🧠 Consequences of Inaction</h2>
-    <p>If we don’t critically examine how these technologies are shaping performance metrics, we risk entrenching hidden biases, excluding unconventional talent, and damaging athlete well-being in the name of optimization.</p>
-
-    <h2>📚 Citations (select examples)</h2>
-    <div class="citations">
-        Chmait, N., & Westerbeek, H. “Artificial Intelligence and Machine Learning in Sport Research.” <em>Frontiers in Sports and Active Living</em>.<br>
-        Udelf, David. “The Antidote for an Athlete’s Fixation on Analytics Data.” <em>Psychology Today</em>, 2024.<br>
-        Jedlovec, Ben. “Introducing Statcast 2020: Hawk-Eye and Google Cloud.” <em>MLB News</em>, 2020.
+    <div class="hero">
+        <h1 class="text-4xl font-bold">The Datafication of Sports</h1>
+        <p class="text-xl mt-2">How AI and MLB's Statcast Are Redefining Athletic Performance</p>
     </div>
-</div>
+
+    <div class="section">
+        <h2 class="text-2xl font-semibold mb-4">The Research Problem</h2>
+        <p class="abstract">
+            Artificial intelligence (AI) and machine learning (ML) are transforming sports by turning human performance into data-driven metrics. This paper examines MLB's Statcast system, launched in 2015, as a case study of how AI redefines athletic value through metrics like "exit velocity" and "spin rate." This shift raises critical questions about fairness, human autonomy, and the role of data in decision-making. By exploring Statcast, we uncover how AI reshapes not just sports but our understanding of human excellence.
+        </p>
+        <p class="mt-4">
+            Why does this matter? The move from human judgment to algorithmic analysis mirrors broader societal trends toward quantifying value, from workplaces to education. Understanding this transformation is crucial to addressing its implications for fairness and creativity in sports and beyond.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2ruh class="text-2xl font-semibold mb-4">Historical Sources and Methods</h2>
+        <p>
+            This research draws on primary sources like MLB's technical documentation, Hawk-Eye Innovations' reports, and Google Cloud's contributions to Statcast. Interviews with figures like Billy Beane and talks from the MIT Sloan Sports Analytics Conference provide insights into the rhetoric and technology behind data-driven sports. Secondary sources, including peer-reviewed articles by Chmait and Westerbeek, Ghosh et al., and Dindorf et al., alongside books like <i>Moneyball</i> by Michael Lewis, contextualize this shift. Historical press from The New York Times and ESPN traces public reception.
+        </p>
+        <img src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Baseball stadium with data overlay" class="image">
+    </div>
+
+    <div class="section">
+        <h2 class="text-2xl font-semibold mb-4">The Stakes</h2>
+        <p>
+            Pursuing this research reveals how AI systems like Statcast redefine excellence, potentially marginalizing athletes whose skills defy quantification. It challenges the assumption that algorithms are inherently fair, exposing risks of embedded biases that favor certain performance types. Ignoring this risks entrenching a narrow, data-driven definition of value, diminishing human intuition and creativity in sports. For fans, coaches, and players, this shift reshapes expectations and experiences, demanding critical reflection on who benefits—and who is left behind.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2 class="text-2xl font-semibold mb-4">Sources Cited</h2>
+        <ul class="list-disc pl-6">
+            <li>Chmait, N., and Hans Westerbeek. "Artificial Intelligence and Machine Learning in Sport Research: An Introduction for Non-Data Scientists." <i>Frontiers in Sports and Active Living</i>, 2021. <a href="https://pubmed.ncbi.nlm.nih.gov/34957395/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/34957395/</a>.</li>
+            <li>Ghosh, Indrajeet, et al. "Sports Analytics Review: Artificial Intelligence Applications, Emerging Trends, and Future Directions." <i>Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery</i> 13, no. 6 (2023): e1496. <a href="https://doi.org/10.1002/widm.1496" target="_blank">https://doi.org/10.1002/widm.1496</a>.</li>
+            <li>Jedlovec, Ben. "Introducing Statcast 2020: Hawk-Eye and Google Cloud." <i>MLB News</i>, February 28, 2020. <a href="https://www.mlb.com/news/statcast-hawk-eye-and-google-cloud" target="_blank">https://www.mlb.com/news/statcast-hawk-eye-and-google-cloud</a>.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Created by Cameron Milroy for History of Artificial Intelligence: Minds & Machines, May 10, 2025</p>
+    </footer>
 </body>
 </html>
-
